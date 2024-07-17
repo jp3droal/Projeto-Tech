@@ -1,20 +1,23 @@
 import React from "react"
 import Logo from "../Logo/Logo"
 import Pesquisa from "../../assets/Search.png"
+import Carrinho from "../../assets/mini-cart.png"
 import './Header.css'
 
 export default function Header() {
 
     return (
         <header>
-            <div class="headerFirst">
+            <div className="headerFirst">
                 <div className="headerMain">
                     <Logo />
-                    <div class="headerPesquisa">
-                        <input type="text" placeholder="Pesquisar produto..." />
-                        <img src={Pesquisa} alt="Ícone de Pesquisa" />
+                    <div className="headerPesCad">
+                        <div className="headerPesquisa">
+                            <input type="text" placeholder="Pesquisar produto..." />
+                            <img src={Pesquisa} alt="Ícone de Pesquisa" />
+                        </div>
+                        <a href="" className="headerCadastrar">Cadastre-se</a>
                     </div>
-                    <a href="" class="headerCadastrar">Cadastre-se</a>
                 </div>
                 <nav className="headerNav">
                     <a href="">Home</a>
@@ -24,7 +27,10 @@ export default function Header() {
                 </nav>
             </div>
             <div className="headerSecond">
-
+                    <a href="#">
+                        <button>Entrar</button>
+                    </a>
+                <img src={Carrinho} alt="Ícone de Carrinho com indicador 2" />
             </div>
 
 
