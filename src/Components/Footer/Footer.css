@@ -1,0 +1,33 @@
+
+.footer-container{
+    background-color: #1F1F1F;
+    color: white;
+}
+
+.elementos{
+    display: flex;
+ 
+}
+
+.footer-corpo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.informacao{
+    min-width: 135px;
+    
+}
+
+.categorias{
+    min-width: 135px;
+}
+
+.contatos{
+    min-width: 135px;
+}
+
+p{
+    display: flex;
+    align-items: center;
+}
