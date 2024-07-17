@@ -1,6 +1,6 @@
 header {
     display: flex;
-    margin: 34px 100px 0100px;
+    margin: 34px 100px 29px 100px;
     display: flex;
     justify-content: space-between;
 
@@ -43,7 +43,7 @@ header {
                 .headerCadastrar {
                     font-size: 16px;
                     color: var(--darkGray2);
-                    text-decoration: 1.5px underline var(--darkGray2);
+                   border-bottom: 1.5px solid var(--darkGray2);
                     letter-spacing: 0.25px;
                     text-wrap: nowrap;
                     margin-left: 48px;
@@ -103,5 +103,6 @@ header {
 
 .headerNav a:hover {
     color: var(--primary);
-    border-bottom: 1px solid var(--primary);
+    border-bottom: 2px solid var(--primary);
+    font-weight: bold;
 }

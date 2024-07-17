@@ -32,8 +32,6 @@ export default function Header() {
                     </a>
                 <img src={Carrinho} alt="Ícone de Carrinho com indicador 2" />
             </div>
-
-
         </header>
     )
 }
