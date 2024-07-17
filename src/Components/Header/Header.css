@@ -1,0 +1,38 @@
+header {
+    display: flex;
+
+    .headerMain {
+        display: flex;
+        align-items: center;
+
+        .headerPesquisa {
+            display: flex;
+            align-items: center;
+            background-color: #47474708;
+            height: 60px;
+            border-radius: 8px;
+
+            input {
+                background: none;
+                border: none;
+                width: 100%;
+                height: 100%;
+            }
+            input::placeholder {
+                color: #66666660;
+            }
+        }
+
+        .headerCadastrar {
+            font-size: 16px;
+            color: var(--darkGray2);
+            border-bottom: 1.5px solid var(--darkGray2);
+            letter-spacing: 0.25px;
+            text-wrap: nowrap;
+        }
+    }
+
+    .headerNav {
+        display: flex;
+    }
+}
