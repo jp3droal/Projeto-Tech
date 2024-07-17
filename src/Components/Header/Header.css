@@ -43,24 +43,24 @@ header {
                 .headerCadastrar {
                     font-size: 16px;
                     color: var(--darkGray2);
-                    border-bottom: 1.5px solid var(--darkGray2);
+                    text-decoration: 1.5px underline var(--darkGray2);
                     letter-spacing: 0.25px;
                     text-wrap: nowrap;
                     margin-left: 48px;
                 }
             }
         }
+    }
 
-        .headerNav {
-            display: flex;
+    .headerNav {
+        display: flex;
 
-            margin-top: 40px;
+        margin-top: 40px;
 
 
-            a {
-                margin-right: 32px;
-                color: var(--darkGray2);
-            }
+        a {
+            margin-right: 32px;
+            color: var(--darkGray2);
         }
     }
 
