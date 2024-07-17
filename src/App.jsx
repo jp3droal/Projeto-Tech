@@ -1,7 +1,7 @@
 import { useState } from 'react'
+import './main.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>

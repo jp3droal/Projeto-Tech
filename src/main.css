@@ -1,0 +1,13 @@
+:root {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 34px 100px 22px 100px;
+}
