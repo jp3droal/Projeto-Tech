@@ -1,33 +1,125 @@
+*{
+    color: white;
+    font-family: Arial,sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
-.footer-container{
+
+
+.footer-container {
     background-color: #1F1F1F;
     color: white;
-}
-
-.elementos{
+    height: 500px;
+    padding: 20px;
     display: flex;
- 
-}
+    flex-direction: column;
+    justify-content: space-between;
+    
+  }
+
+
 
 .footer-corpo{
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
+    
 }
 
 .informacao{
     min-width: 135px;
-    
+    margin-right: 102px;
+    width: 135px;
+    height: 278px;
 }
+
 
 .categorias{
     min-width: 135px;
+    margin-right: 168px;
+    width: 96px;
+    height: 240px;
+    
 }
 
 .contatos{
     min-width: 135px;
+    width: 233px;
+    height: 168px;
 }
 
-p{
+
+.elementos{
     display: flex;
-    align-items: center;
+    justify-content: space-between;
+    margin-top: 70px;
+   margin-right: 72px;
+   
 }
+.elementos h2{
+    font-size: 18px;
+}
+
+
+
+.elementos ul{
+   list-style: none;
+   margin-top: 38px;
+   font-size: 16px
+
+  
+}
+
+.elementos li{
+    margin-top: 28px;
+    
+}   
+
+.primeira-parte{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 72px;
+    margin-left: 90px;
+    
+  
+}
+
+.primeira-parte p{
+    width: 307px;
+    height: 78px;
+    margin-top: 33px;
+}
+
+.redes-sociais a {
+    margin-right: 20px;
+  }
+  
+  .redes-sociais img {
+    width: 21px;
+    height:20px;
+  
+  }
+
+  hr {
+    
+        border: none;
+        border-top: 1px solid #606060;
+        margin-top: 38px;
+    
+  }
+  
+  .final p {
+    font-size: 14px;
+    text-align: center;
+    margin: 10px 0;
+  }
+
+
+  .footer-logo {
+    width: 50px;
+    height: auto;
+    margin-bottom: 10px;
+  }

@@ -8,6 +8,12 @@ function App() {
   return (
     <>
       <Header/>
+      <Footer/>
+    
+
+
+
+
     </>
   )
 }

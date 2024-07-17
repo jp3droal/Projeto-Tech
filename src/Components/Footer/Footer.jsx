@@ -1,6 +1,11 @@
 import React from 'react';
 import InfoComponent from './InfoComponent';
 import './Footer.css'
+import Logo from '../Logo/Logo';
+import Facebook from '../../assets/Facebook.svg'
+import Instagram from '../../assets/Instagram.svg'
+import Twitter from '../../assets/Twitter.svg'
+import LogoFooter from '../Logo/LogoFooter';
 
 const informations = [
   {
@@ -68,27 +73,34 @@ export default function Footer() {
     <footer>
       <div className='footer-container'>
         <div className='footer-corpo'>
-
+          <div className='primeira-parte'>
+          <LogoFooter/>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores earum facilis error quis? Quo rem enim corporis.</p>
-
+          <div className='redes-sociais'>
+           <a href="#"><img src={Facebook} alt="Facebook" /></a> 
+           <a href="#"><img src={Instagram} alt="Instagram" /></a> 
+           <a href="#"><img src={Twitter} alt="Twitter" /></a> 
+           </div>
+          </div>
 
 
           <div className='elementos'>
             <div className='informacao'>
-              <InfoComponent title="Informações" informations={informations} />
+              <InfoComponent title="Informação" informations={informations} />
             </div>
             <div className='categorias'>
               <InfoComponent title="Categorias" informations={Categorias} />
             </div>
             <div className='contatos'>
-              <InfoComponent title="Contatos" informations={Contato} />
+              <InfoComponent title="Contato" informations={Contato} />
             </div>
           </div>
 
         </div>
         <hr />
-        <div className='final'></div>
+        <div className='final'>
         <p>@2024 Digital College</p>
+        </div>
       </div>
     </footer>
   )
