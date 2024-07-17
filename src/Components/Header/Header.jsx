@@ -10,7 +10,7 @@ export default function Header() {
         <header>
             <div className="headerFirst">
                 <div className="headerMain">
-                    <Logo />
+                 <Logo/>
                     <div className="headerPesCad">
                         <div className="headerPesquisa">
                             <input type="text" placeholder="Pesquisar produto..." />
