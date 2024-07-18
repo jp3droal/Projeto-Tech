@@ -33,6 +33,7 @@ header {
                         border: none;
                         width: 100%;
                         height: 100%;
+                        color: var(--darkGray3);
                     }
 
                     input::placeholder {
@@ -64,6 +65,7 @@ header {
         a {
             margin-right: 32px;
             color: var(--darkGray2);
+            
 
             text-decoration: none;
         }

@@ -10,7 +10,7 @@ export default function InfoComponent({ title, informations }) {
                     <li key={index}>
                         <a href={info.link}>{info.text}</a>
                     </li>
-                ))}
+                ))} 
             </ul>
         </div>
     );

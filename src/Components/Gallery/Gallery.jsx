@@ -5,7 +5,22 @@ import { Carousel } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Gallery.css';
 
-function CustomCarousel() {
+// const images = [
+//   {
+//     src: ""
+//   }
+//   {
+//     src: ""
+//   }
+//   {
+//     src: ""
+//   }
+//   {
+//     src: ""
+//   }
+// ]
+
+export default function Gallery() {
   const [activeIndex, setActiveIndex] = useState(0);
 
   const handleSelect = (selectedIndex) => {
@@ -22,11 +37,27 @@ function CustomCarousel() {
         prevIcon={<span aria-hidden="true" className="carousel-control-prev-icon" />}
       >
         <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src={teste}
-            alt="First slide"
-          />
+          <div className='galleryPrincipal'>
+            <div className='galleryTexto'>
+              <p>
+                Melhores ofertas personalizadas
+              </p>
+              <h1>
+                Queima de estoque Nike 🔥
+              </h1>
+              <p>
+                Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.
+              </p>
+              <button>
+                <a href="#">
+                  <button>Ver Ofertas</button>
+                </a>
+              </button>
+            </div>
+            <div>
+              
+            </div>
+          </div>
         </Carousel.Item>
         <Carousel.Item>
           <img
@@ -42,9 +73,16 @@ function CustomCarousel() {
             alt="Third slide"
           />
         </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={teste}
+            alt="Third slide"
+          />
+        </Carousel.Item>
       </Carousel>
       <div className="carousel-indicators">
-        {[0, 1, 2].map(index => (
+        {[0, 1, 2, 3].map(index => (
           <button
             key={index}
             className={`indicator-btn ${index === activeIndex ? 'active' : ''}`}
@@ -55,6 +93,4 @@ function CustomCarousel() {
     </div>
   );
 }
-
-export default CustomCarousel;
 

@@ -1,24 +1,69 @@
+.galleryPrincipal {
+
+  .galleryTexto {
+    p {
+      
+    }
+  }
+}
+
+
+
+
+
+
+
+a {
+  button {
+      background-color: var(--primary);
+      width: 220px;
+      height: 48px;
+      border-radius: 4px;
+      color: var(--white);
+      font-weight: bold;
+      font-size: 14px;
+      cursor: pointer;
+      transition: 1s;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
 .carousel-container {
-    position: relative;
-  }
-  
-  .carousel-indicators {
-    position: absolute;
-    transform: translateX(0);
-    display: flex;
-    justify-content: center;
-    gap: 5px;
-  }
-  
-  .indicator-btn {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: grey;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .indicator-btn.active {
-    background-color: pink;
-  }
+  position: relative;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  opacity: 0;
+}
+
+.carousel-indicators {
+  position: absolute;
+  transform: translateX(0);
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.indicator-btn {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--lightGray2);
+  border: none;
+  cursor: pointer;
+}
+
+.indicator-btn.active {
+  background-color: var(--primary);
+}
