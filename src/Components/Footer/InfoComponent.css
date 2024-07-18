@@ -1,0 +1,20 @@
+.IComponent {
+    
+    ul {
+        padding: 0;
+        list-style: none;
+        margin-top: 38px;
+        font-size: 16px;
+
+        li {
+            margin-top: 18px;
+            text-decoration: none;
+
+            a {
+                color: var(--white); 
+                text-decoration: none;
+                font-size: 16.6px;
+            }
+        }
+    }
+}

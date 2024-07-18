@@ -74,13 +74,13 @@ export default function Footer() {
       <div className='footer-container'>
         <div className='footer-corpo'>
           <div className='primeira-parte'>
-          <LogoFooter/>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores earum facilis error quis? Quo rem enim corporis.</p>
-          <div className='redes-sociais'>
-           <a href="#"><img src={Facebook} alt="Facebook" /></a> 
-           <a href="#"><img src={Instagram} alt="Instagram" /></a> 
-           <a href="#"><img src={Twitter} alt="Twitter" /></a> 
-           </div>
+            <LogoFooter />
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores earum facilis error quis? Quo rem enim corporis.</p>
+            <div className='redes-sociais'>
+              <a href="#"><img src={Facebook} alt="Facebook" /></a>
+              <a href="#"><img src={Instagram} alt="Instagram" /></a>
+              <a href="#"><img src={Twitter} alt="Twitter" /></a>
+            </div>
           </div>
 
 
@@ -97,9 +97,11 @@ export default function Footer() {
           </div>
 
         </div>
-        <hr />
+        <div className='hr'>
+          <hr />
+        </div>
         <div className='final'>
-        <p>@2024 Digital College</p>
+          <p>@2024 Digital College</p>
         </div>
       </div>
     </footer>

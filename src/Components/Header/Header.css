@@ -41,12 +41,15 @@ header {
                 }
 
                 .headerCadastrar {
+                    height: 20px;
                     font-size: 16px;
                     color: var(--darkGray2);
-                   border-bottom: 1.5px solid var(--darkGray2);
+                    border-bottom: 1.5px solid var(--darkGray2);
                     letter-spacing: 0.25px;
                     text-wrap: nowrap;
                     margin-left: 48px;
+
+                    text-decoration: none;
                 }
             }
         }
@@ -61,6 +64,8 @@ header {
         a {
             margin-right: 32px;
             color: var(--darkGray2);
+
+            text-decoration: none;
         }
     }
 
