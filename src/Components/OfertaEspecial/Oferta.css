@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+#ofertaEspecial{
+  display: flex;
+  justify-content: space-between;
+  height: 553px;
+    padding: 87px 100px 0 52px  ;
+}
+
+.imagem{
+    width: 573px;
+    height: 330px;
+    margin-bottom: 108px;
+    margin-top: 115px;
+    margin-left: 52px;
+   margin-right: 67px;
+}
+.textos{
+    margin-top: 106px;
+    margin-left: 67px;     
+    margin-right: 59px;
+    width: 589px;
+    height:341px;
+    text-align: start;
+}
+
+
+button{
+    background-color: #C92071;
+    color:#F5F5F5;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    font-family: 'Inter'
+}
+
+
+.textos h4{
+    color: #C92071 ;
+    font-size: 14px;
+    width:116px;
+    height: 22px;
+    font-weight: bold;
+    font-family: 'Inter'
+}
+
+.textos h1{
+    color: #474747;
+    font-size: 48px;
+    font-weight: bold;
+    
+    
+}
+
+.textos p{
+    color: #474747; ;
+    
+}
+
+
