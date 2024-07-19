@@ -1,13 +1,16 @@
 import teste from '../../assets/logo.png'
-
+import SneakersGallery from '../../assets/Sneakers-Gallery.png'
 import React, { useState } from 'react';
 import { Carousel } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Gallery.css';
 
+import CircleGallery from '../../assets/CircleGallery.png'
+
+
 // const images = [
 //   {
-//     src: ""
+//     src: {CircleGallery}
 //   }
 //   {
 //     src: ""
@@ -38,25 +41,29 @@ export default function Gallery() {
       >
         <Carousel.Item>
           <div className='galleryPrincipal'>
-            <div className='galleryTexto'>
-              <p className='melhoresOfertas'>
-                Melhores ofertas personalizadas
-              </p>
-              <h1>
-                Queima de estoque Nike 🔥
-              </h1>
-              <p className='textoPenultimo'>
-                Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.
-              </p>
-              <button>
+            <div className='galleryExtra'>
+              <div className='galleryTexto'>
+                <p className='melhoresOfertas'>
+                  Melhores ofertas personalizadas
+                </p>
+                <h1>
+                  Queima de estoque Nike 🔥
+                </h1>
+                <p className='textoPenultimo'>
+                  Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.
+                </p>
                 <a href="#">
                   <button>Ver Ofertas</button>
                 </a>
-              </button>
+              </div>
+              <div className='galleryImagem'>
+                <img src={SneakersGallery} alt="" />
+              </div>
+              <div className='circleGallery'>
+                <img src={CircleGallery} alt="" />
+              </div>
             </div>
-            <div>
-              
-            </div>
+
           </div>
         </Carousel.Item>
         <Carousel.Item>

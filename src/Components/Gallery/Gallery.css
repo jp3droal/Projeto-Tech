@@ -4,35 +4,47 @@
   padding: 78px 37px 0 100px;
   background-color: var(--lightGray3);
 
-  .galleryTexto {
-    width: 510px;
-    height: 352px;
+  .galleryExtra {
+    display: flex;
+    justify-content: space-between;
 
-    .melhoresOfertas {
-      font-weight: 700;
-      font-size: 16px;
-      line-height: 24px;
-      letter-spacing: 0.75px;
-      color: var(--warning);
+    .galleryTexto {
+      width: 37%;
+      height: 352px;
+
+      .melhoresOfertas {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.75px;
+        color: var(--warning);
+      }
+
+      h1 {
+        width: 512px;
+        font-weight: 800;
+        font-size: 64px;
+        line-height: 66px;
+        letter-spacing: 1px;
+        color: var(--darkGray);
+        margin-bottom: 20px;
+      }
+
+      .textoPenultimo {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 34px;
+        letter-spacing: 0.75px;
+        color: var(--darkGray2);
+        margin-bottom: 40px;
+      }
     }
 
-    h1 {
-      width: 512px;
-      font-weight: 800;
-      font-size: 64px;
-      line-height: 66px;
-      letter-spacing: 1px;
-      color: var(--darkGray);
-      margin-bottom: 20px;
-    }
+    .galleryImagem {
 
-    .textoPenultimo {
-      font-weight: 400;
-      font-size: 18px;
-      line-height: 34px;
-      letter-spacing: 0.75px;
-      color: var(--darkGray2);
-      margin-bottom: 40px;
+      img {
+        width: 100%;
+      }
     }
   }
 }
@@ -41,15 +53,15 @@
 
 a {
   button {
-      background-color: var(--primary);
-      width: 220px;
-      height: 48px;
-      border-radius: 4px;
-      color: var(--white);
-      font-weight: bold;
-      font-size: 14px;
-      cursor: pointer;
-      transition: 1s;
+    background-color: var(--primary);
+    width: 220px;
+    height: 48px;
+    border-radius: 4px;
+    color: var(--white);
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 1s;
   }
 
 }
@@ -63,9 +75,15 @@ a {
   position: relative;
 }
 
-.carousel-control-next-icon,
+a .carousel-control-next-icon,
 .carousel-control-prev-icon {
   opacity: 0;
+  background-color: black;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 100px;
 }
 
 .carousel-indicators {
@@ -87,8 +105,4 @@ a {
 
 .indicator-btn.active {
   background-color: var(--primary);
-}
-
-a button:hover {
-  
 }
