@@ -1,0 +1,13 @@
+.cardMain {
+    width: 292px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .cardImagem {
+
+        img {
+            background-color: black;
+        }
+    }
+}

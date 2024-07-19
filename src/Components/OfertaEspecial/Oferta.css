@@ -35,6 +35,7 @@ button {
     border-radius: 10px;
     font-family: 'Inter';
     font-weight: bold;
+    transition: 1s;
 }
 
 
@@ -60,4 +61,6 @@ button {
 
 }
 
-button:hover {}
+button:hover {
+    background-color: var(--tertiary);
+}

@@ -5,8 +5,8 @@ import Footer from './Components/Footer/Footer';
 import Gallery from './Components/Gallery/Gallery.jsx';
 import OfertaEspecial from './Components/OfertaEspecial/Oferta.jsx';
 import Section from './Components/Section/Section.jsx';
-import ColeçaoEmDestaque from './Components/ColeçãoEmDestaque/Coleçao.jsx';
-;
+// import ColeçaoEmDestaque from './Components/ColeçãoEmDestaque/Coleçao.jsx';
+import ProductCard from './Components/ProductCard/ProductCard.jsx';
 
 function App() {
 
@@ -14,7 +14,8 @@ function App() {
     <>
       <Header/>
       <Gallery/>
-      <ColeçaoEmDestaque/>
+      {/* <ColeçaoEmDestaque/> */}
+      <ProductCard/>
       <OfertaEspecial/>
       <Footer/>
     </>
