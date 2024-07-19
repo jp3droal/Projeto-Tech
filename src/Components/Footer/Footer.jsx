@@ -1,7 +1,6 @@
 import React from 'react';
 import InfoComponent from './InfoComponent';
 import './Footer.css'
-import Logo from '../Logo/Logo';
 import Facebook from '../../assets/Facebook.svg'
 import Instagram from '../../assets/Instagram.svg'
 import Twitter from '../../assets/Twitter.svg'

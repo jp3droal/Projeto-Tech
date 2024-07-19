@@ -39,13 +39,13 @@ export default function Gallery() {
         <Carousel.Item>
           <div className='galleryPrincipal'>
             <div className='galleryTexto'>
-              <p>
+              <p className='melhoresOfertas'>
                 Melhores ofertas personalizadas
               </p>
               <h1>
                 Queima de estoque Nike 🔥
               </h1>
-              <p>
+              <p className='textoPenultimo'>
                 Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.
               </p>
               <button>
