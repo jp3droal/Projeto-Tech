@@ -1,4 +1,3 @@
-import teste from '../../assets/logo.png'
 import React, { useState } from 'react';
 import { Carousel } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -17,6 +16,12 @@ const images = [
   { src: SneakersGallery6, alt: 'Imagem 3' },
   { src: SneakersGallery8, alt: 'Imagem 4' }
 ];
+
+images.map(imagens => {
+  <>
+    <img src={imagens.src} alt="" />
+  </>
+});
 
 export default function Gallery() {
 
@@ -59,7 +64,6 @@ export default function Gallery() {
                 <img src={CircleGallery} alt="" />
               </div>
             </div>
-
           </div>
         </Carousel.Item>
         <Carousel.Item>
