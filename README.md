@@ -1,6 +1,6 @@
 # Digital Store
 
-Equipe:
-Paulo Henrique
-Raissa Reis
-João Pedro
+Equipe: \n
+Paulo Henrique \n
+Raissa Reis \n
+João Pedro \n
