@@ -1,0 +1,33 @@
+#productMain {
+    display: grid;
+    margin: 0 100px;
+
+    .productTitles {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+
+        p {
+            margin: 0;
+            font-weight: 700;
+            font-size: 24px;
+            letter-spacing: 0.75px;
+            color: var(--darkGray2);
+        }
+
+        a {
+            font-weight: 400;
+            font-size: 18px;
+            letter-spacing: 0.75px;
+            color: var(--primary);
+            text-decoration: none;
+        }
+    }
+    
+    .productRender {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}

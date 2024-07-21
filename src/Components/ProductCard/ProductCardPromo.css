@@ -1,4 +1,4 @@
-.cardPrincipal {
+.cardPromo {
     width: 292px;
     display: flex;
     text-align: start;
@@ -11,6 +11,23 @@
         padding: 20px;
         background-color: var(--white);
         margin-bottom: 18px;
+
+        .cardPromo {
+            width: 96px;
+            height: 32px;
+            border-radius: 29px;
+            padding: 5px 15px;
+            gap: 10px;
+            background-color: #E7FF86;
+            position: absolute;
+
+            p {
+                font-weight: 700;
+                font-size: 14px;
+                letter-spacing: 0.75px;
+                color: var(--darkGray2);
+            }
+        }
 
         img {
             color: var(--white);

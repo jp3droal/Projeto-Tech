@@ -7,6 +7,7 @@ import OfertaEspecial from './Components/OfertaEspecial/Oferta.jsx';
 import Section from './Components/Section/Section.jsx';
 import ColeçaoEmDestaque from './Components/ColeçãoEmDestaque/Coleçao.jsx';
 import ProductCard from './Components/ProductCard/ProductCard.jsx';
+import ProductListing from './Components/ProductListing/ProductListing.jsx';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <Gallery/>
       <ColeçaoEmDestaque/> 
       <ProductCard/>
+      <ProductListing/>
       <OfertaEspecial/>
       <Footer/>
     </>

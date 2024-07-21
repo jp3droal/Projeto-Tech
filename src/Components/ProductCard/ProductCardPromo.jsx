@@ -1,8 +1,9 @@
 import React from 'react';
 import imageCard from '../../assets/imageCard.png'
-import './ProductCard.css'
+import './ProductCardPromo.css'
 
 const baseProducts = {
+    promo: "30% OFF",
     name: "K-Swiss V8 - Masculino",
     image: imageCard,
     subName: "Tênis",
@@ -10,14 +11,17 @@ const baseProducts = {
     priceDiscount: "$100"
 };
 
-export default function ProductCard({ quantidade }) {
+export default function ProductCardPromo({ quantidade }) {
     const products = Array(quantidade).fill(baseProducts);
 
     return (
         <>
             {products.map((product, index) => (
-                <div key={index} className="cardPrincipal">
+                <div key={index} className="cardPromo">
                     <div className="cardImagem">
+                        <div className='cardPromo'>
+                            <p>{product.promo}</p>
+                        </div>
                         <img src={product.image} alt="Imagem do ProductCard" />
                     </div>
                     <p className='tinny'>{product.subName}</p>
