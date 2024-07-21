@@ -110,6 +110,12 @@ header {
 
 .headerNav a:hover {
     color: var(--primary);
-    border-bottom: 2px solid var(--primary);
+    border-bottom: 3px solid var(--primary);
+    font-weight: bold;
+}
+
+.headerNav a.active {
+    color: var(--primary);
+    border-bottom: 3px solid var(--primary);
     font-weight: bold;
 }

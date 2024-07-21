@@ -53,7 +53,7 @@ export default function Gallery() {
                 <p className='textoPenultimo'>
                   Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.
                 </p>
-                <a href="#">
+                <a href="#productMain">
                   <button>Ver Ofertas</button>
                 </a>
               </div>
@@ -79,7 +79,7 @@ export default function Gallery() {
                 <p className='textoPenultimo'>
                   Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.
                 </p>
-                <a href="#">
+                <a href="#productMain">
                   <button>Ver Ofertas</button>
                 </a>
               </div>
@@ -105,7 +105,7 @@ export default function Gallery() {
                 <p className='textoPenultimo'>
                   Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.
                 </p>
-                <a href="#">
+                <a href="#productMain">
                   <button>Ver Ofertas</button>
                 </a>
               </div>

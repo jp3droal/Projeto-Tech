@@ -1,16 +1,22 @@
 import React from "react"
+import { useState } from 'react';
 import Logo from "../Logo/Logo"
 import Pesquisa from "../../assets/Search.png"
 import Carrinho from "../../assets/mini-cart.png"
 import './Header.css'
 
 export default function Header() {
+    const [activeIndex, setActiveIndex] = useState(0);
+
+    const handleSelect = (selectedIndex) => {
+        setActiveIndex(selectedIndex);
+    };
 
     return (
         <header>
             <div className="headerFirst">
                 <div className="headerMain">
-                 <Logo/>
+                    <Logo />
                     <div className="headerPesCad">
                         <div className="headerPesquisa">
                             <input type="text" placeholder="Pesquisar produto..." />
@@ -20,16 +26,24 @@ export default function Header() {
                     </div>
                 </div>
                 <nav className="headerNav">
-                    <a href="">Home</a>
-                    <a href="">Produtos</a>
-                    <a href="">Categorias</a>
-                    <a href="">Meus Pedidos</a>
+                    <a href="#" className={activeIndex === 0 ? 'active' : ''} onClick={() => handleSelect(0)}>
+                        Home
+                    </a>
+                    <a href="#" className={activeIndex === 1 ? 'active' : ''} onClick={() => handleSelect(1)}>
+                        Produtos
+                    </a>
+                    <a href="#" className={activeIndex === 2 ? 'active' : ''} onClick={() => handleSelect(2)}>
+                        Categorias
+                    </a>
+                    <a href="#" className={activeIndex === 3 ? 'active' : ''} onClick={() => handleSelect(3)}>
+                        Meus Pedidos
+                    </a>
                 </nav>
             </div>
             <div className="headerSecond">
-                    <a href="#">
-                        <button>Entrar</button>
-                    </a>
+                <a href="#">
+                    <button>Entrar</button>
+                </a>
                 <img src={Carrinho} alt="Ícone de Carrinho com indicador 2" />
             </div>
         </header>
