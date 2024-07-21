@@ -2,6 +2,11 @@
 
 
 
+.colecaodestaque{
+ padding-top: 100px;
+ background-color: white;
+}
+
 .colecaodestaque h1{
 font-family: 'Inter';
 color:#474747 ;
@@ -11,6 +16,7 @@ line-height: 38px;
 letter-spacing: 0.75px;
 display: flex;
 justify-content: center;
+
 }
 
 .botoes{
@@ -21,15 +27,23 @@ justify-content: center;
 
 
 .botoes button{
+    margin-top: 20px;
     padding-right: 48px;
     border: none;
     background: none;
     cursor: pointer;
+   
+
 }
 
 .botoes button p{
     font-family: "Inter";
     color: #474747 ;
     margin-top: 12px;
+    
 
+}
+
+.botoes button:hover {
+    transform: scale(1.1);
 }
