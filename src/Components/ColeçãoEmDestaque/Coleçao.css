@@ -2,6 +2,11 @@
 
 
 
+.colecaodestaque{
+ padding-top: 100px;
+ padding-bottom: 123px;
+}
+
 .colecaodestaque h1{
 font-family: 'Inter';
 color:#474747 ;
@@ -11,25 +16,47 @@ line-height: 38px;
 letter-spacing: 0.75px;
 display: flex;
 justify-content: center;
+
 }
 
 .botoes{
+    margin-top: 20px;
+    margin-right: 48px;
     display: flex;
     flex-direction: row;
-   justify-content: center;
+    justify-content: center;
+
 }
 
 
 .botoes button{
-    padding-right: 48px;
+    width: 104px;
+    height: 104px;
+    margin-left: 48px;
     border: none;
     background: none;
     cursor: pointer;
+    border-radius: 150px;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);  
 }
 
-.botoes button p{
+.botoes p{
     font-family: "Inter";
     color: #474747 ;
     margin-top: 12px;
+    text-align: center;
+    font-weight: 700 ;
+    letter-spacing: 0.75px;
+    font-size: 14px;
+    line-height: 22px;
+margin-left: 48px;
+}
 
+.botoes button:hover {
+    transform: scale(1.1);
+}
+
+.roupas p{
+    text-align: center;
 }
