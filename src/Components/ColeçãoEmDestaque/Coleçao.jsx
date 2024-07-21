@@ -11,11 +11,26 @@ export default function ColeçaoEmDestaque(){
         <div className="colecaodestaque">
         <h1>Coleções em destaque</h1>
         <div className="botoes">
-            <button ><img src={Camiseta} alt="camiseta" /><p>Camisetas</p></button>
-            <button ><img src={Calca} alt="calca" /><p>Calças</p></button>
-            <button ><img src={Bones} alt="bones" /><p>Bonés</p></button>
-            <button ><img src={Headphones} alt="headphones" />  <p>Headphones</p></button>
-            <button ><img src={Tenis} alt="tenis" /><p>Tênis</p></button>
+            <div className="roupas">
+            <button ><img src={Camiseta} alt="camiseta" /></button>
+            <p>Camisetas</p>
+            </div>
+            <div className="roupas">
+            <button ><img src={Calca} alt="calca" /></button>
+            <p>Calças</p>
+            </div>
+            <div className="roupas">
+            <button ><img src={Bones} alt="bones" /></button>
+            <p>Bonés</p>
+            </div>
+            <div className="roupas">
+            <button ><img src={Headphones} alt="headphones" /> </button>
+             <p>Headphones</p>
+             </div>
+             <div className="roupas">
+            <button ><img src={Tenis} alt="tenis" /></button>
+            <p>Tênis</p>
+            </div>
          </div>
          </div>      
     </section>
