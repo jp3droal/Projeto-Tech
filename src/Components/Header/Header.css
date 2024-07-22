@@ -1,8 +1,9 @@
 header {
     display: flex;
-    margin: 34px 100px 29px 100px;
+    padding: 34px 100px 29px 100px;
     display: flex;
     justify-content: space-between;
+    background-color: var(--white);
 
     .headerFirst {
         width: 100%;

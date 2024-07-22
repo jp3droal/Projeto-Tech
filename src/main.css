@@ -8,11 +8,13 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-section {
+#root {
     background-color: #f9f8fe;
 }
 
 :root {
+
+
     --primary: #C92071;
     --secondary: #B5B6F2;
     --tertiary: #991956;

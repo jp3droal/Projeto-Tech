@@ -4,17 +4,16 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './Gallery.css';
 
 import SneakersGallery from '../../assets/Sneakers-Gallery.png'
-import SneakersGallery4 from '../../assets/home-slide-4.png'
-import SneakersGallery6 from '../../assets/home-slide-6.png'
-import SneakersGallery8 from '../../assets/home-slide-8.png'
+import ArrowRight from '../../assets/icons/arrow-right.svg'
+import ArrowLeft from '../../assets/icons/arrow-left.svg'
 
 import CircleGallery from '../../assets/CircleGallery.png'
 
 const images = [
   { src: SneakersGallery, alt: 'Imagem 1' },
-  { src: SneakersGallery4, alt: 'Imagem 2' },
-  { src: SneakersGallery6, alt: 'Imagem 3' },
-  { src: SneakersGallery8, alt: 'Imagem 4' }
+  { src: SneakersGallery, alt: 'Imagem 2' },
+  { src: SneakersGallery, alt: 'Imagem 3' },
+  { src: SneakersGallery, alt: 'Imagem 4' }
 ];
 
 images.map(imagens => {
@@ -37,8 +36,8 @@ export default function Gallery() {
         activeIndex={activeIndex}
         onSelect={handleSelect}
         indicators={false}
-        nextIcon={<span aria-hidden="true" className="carousel-control-next-icon" />}
-        prevIcon={<span aria-hidden="true" className="carousel-control-prev-icon" />}
+        nextIcon={<img src={ArrowRight} aria-hidden="true" className="custom-next-icon" />}
+        prevIcon={<img src={ArrowLeft} aria-hidden="true" className="custom-prev-icon" />}
       >
         <Carousel.Item>
           <div className='galleryPrincipal'>
@@ -132,7 +131,7 @@ export default function Gallery() {
                 <p className='textoPenultimo'>
                   Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.
                 </p>
-                <a href="#">
+                <a href="#productMain">
                   <button>Ver Ofertas</button>
                 </a>
               </div>

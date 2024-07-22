@@ -5,6 +5,8 @@ import Pesquisa from "../../assets/Search.png"
 import Carrinho from "../../assets/mini-cart.png"
 import './Header.css'
 
+import { Link } from "react-router-dom"
+
 export default function Header() {
     const [activeIndex, setActiveIndex] = useState(0);
 
@@ -26,22 +28,22 @@ export default function Header() {
                     </div>
                 </div>
                 <nav className="headerNav">
-                    <a href="#" className={activeIndex === 0 ? 'active' : ''} onClick={() => handleSelect(0)}>
+                    <a href="" className={activeIndex === 0 ? 'active' : ''} onClick={() => handleSelect(0)}>
                         Home
                     </a>
-                    <a href="#" className={activeIndex === 1 ? 'active' : ''} onClick={() => handleSelect(1)}>
+                    <a href="" className={activeIndex === 1 ? 'active' : ''} onClick={() => handleSelect(1)}>
                         Produtos
                     </a>
-                    <a href="#" className={activeIndex === 2 ? 'active' : ''} onClick={() => handleSelect(2)}>
+                    <a href="" className={activeIndex === 2 ? 'active' : ''} onClick={() => handleSelect(2)}>
                         Categorias
                     </a>
-                    <a href="#" className={activeIndex === 3 ? 'active' : ''} onClick={() => handleSelect(3)}>
+                    <a href="" className={activeIndex === 3 ? 'active' : ''} onClick={() => handleSelect(3)}>
                         Meus Pedidos
                     </a>
                 </nav>
             </div>
             <div className="headerSecond">
-                <a href="#">
+                <a href="">
                     <button>Entrar</button>
                 </a>
                 <img src={Carrinho} alt="Ícone de Carrinho com indicador 2" />

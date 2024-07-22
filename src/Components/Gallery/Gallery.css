@@ -47,25 +47,26 @@
         height: 100%;
       }
     }
+
+    a {
+      button {
+        background-color: var(--primary);
+        width: 220px;
+        height: 48px;
+        border-radius: 4px;
+        color: var(--white);
+        font-weight: bold;
+        font-size: 14px;
+        cursor: pointer;
+        transition: 1s;
+      }
+    }
+
   }
 }
 
 
 
-a {
-  button {
-    background-color: var(--primary);
-    width: 220px;
-    height: 48px;
-    border-radius: 4px;
-    color: var(--white);
-    font-weight: bold;
-    font-size: 14px;
-    cursor: pointer;
-    transition: 1s;
-  }
-
-}
 
 
 
@@ -78,7 +79,7 @@ a {
 
 a .carousel-control-next-icon,
 .carousel-control-prev-icon {
-  background-color: black;
+  background-color: none;
 }
 
 .carousel-control-prev,
@@ -107,7 +108,7 @@ a .carousel-control-next-icon,
   background-color: var(--primary);
 }
 
-a {
+.galleryTexto a {
   button:hover {
     background-color: var(--tertiary);
   }

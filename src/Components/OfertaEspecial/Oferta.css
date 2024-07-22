@@ -28,7 +28,7 @@
 }
 
 
-button {
+.textos button {
     background-color: #C92071;
     color: #F5F5F5;
     width: 200px;
@@ -62,6 +62,6 @@ button {
 
 }
 
-button:hover {
+.textos button:hover {
     background-color: var(--tertiary);
 }

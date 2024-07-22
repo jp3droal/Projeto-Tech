@@ -1,0 +1,84 @@
+.colecao3 {
+    margin: 38px 100px 0 100px;
+}
+
+.imagensColecao3 {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .Col1, .Col2, .Col3 {
+        width: 405px;
+        height: 251px;
+        background-image: url(../../assets/collection_1.png);
+        border-radius: 4px;
+        padding: 34px 30px 35px 30px;
+
+        .colPromo {
+            width: 96px;
+            height: 32px;
+            border-radius: 29px;
+            padding: 5px 15px;
+            gap: 10px;
+            background-color: #E7FF86;
+            margin-bottom: 10px;
+
+            p {
+                font-weight: 700;
+                font-size: 14px;
+                letter-spacing: 0.75px;
+                color: var(--darkGray2);
+            }
+        }
+
+        .h3Limit {
+            width: 173px;
+            margin-bottom: 20px;
+
+            h3 {
+                font-weight: 700;
+                font-size: 32px;
+                line-height: 36px;
+                letter-spacing: 1px;
+                color: var(--darkGray);
+            }
+        }
+
+        a {
+            button {
+                width: 153px;
+                height: 48px;
+                border-radius: 5px;
+                background-color: var(--lightGray3);
+                color: var(--primary);
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 24px;
+                letter-spacing: 0.75px;
+                transition: 0.5s;
+            }
+        }
+    }
+
+    .Col2 {
+        width: 405px;
+        height: 251px;
+        background-image: url(../../assets/collection_2.png);
+        border-radius: 4px;
+    }
+
+    .Col3 {
+        width: 405px;
+        height: 251px;
+        background-image: url(../../assets/collection_3.png);
+        border-radius: 4px;
+    }
+}
+
+.Col1 a, .Col2 a, .Col3 a {
+    button:hover {
+        background-color: #b5b6f2;
+        color: var(--white);
+    }
+}

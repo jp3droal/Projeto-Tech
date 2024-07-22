@@ -1,6 +1,9 @@
+.productListing {
+    margin: 0 100px 120px 100px;
+}
+
 #productMain {
     display: grid;
-    margin: 0 100px;
 
     .productTitles {
         display: flex;
