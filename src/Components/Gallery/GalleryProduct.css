@@ -1,0 +1,45 @@
+.carousel-container-view {
+    width: 700px;
+    margin-left: 100px;
+    
+    .galleryViewPrincipal {
+
+        .galleryViewExtra {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            width: 700px;
+            height: 570px;
+            background-color: black;
+        }
+    }
+
+    .viewOptions {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+
+        .galleryOptions {
+            background-color: black;
+            width: 117.81px;
+            height: 96px;
+            border-radius: 4px;
+            cursor: pointer;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                width: 83.8px;
+                height: 41.7px;
+            }
+        }
+
+    }
+}
+
+.galleryOptions.active {
+    border: 3px solid var(--primary);
+}
