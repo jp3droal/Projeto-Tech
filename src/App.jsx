@@ -8,11 +8,17 @@ import Section from './Components/Section/Section.jsx';
 import ColeçaoEmDestaque from './Components/ColeçãoEmDestaque/Coleçao.jsx';
 import ProductCard from './Components/ProductCard/ProductCard.jsx';
 import ProductListing from './Components/ProductListing/ProductListing.jsx';
+import FilterGroup from './pages/ProductListingPage/FilterGroup.jsx';
 
 function App() {
 
   return (
     <>
+
+      <FilterGroup/>
+
+
+
       <Header/>
       <Gallery/>
       <ColeçaoEmDestaque/> 
