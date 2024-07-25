@@ -1,12 +1,12 @@
 import React from "react";
 import FilterComponent from "./FilterComponent";
-
+import "./FilterGroup.css"
 
 
 
 const Marka = [
     {
-        text: 'Adiddas', value:'1'
+        text: 'Adiddas',
     },
     {
         text: 'Calenciaga',
@@ -59,7 +59,7 @@ const Estado = [
 export default function FilterGroup(){
     return(
         <div className="filter-group">
-            <h1>Filtrar por</h1>
+            <h1 className="filter-title">Filtrar por</h1>
             <hr/>
 
             <FilterComponent
@@ -67,8 +67,21 @@ export default function FilterGroup(){
             inputType = 'checkbox'
             options = {Marka}
             />
-
-
+            <FilterComponent
+            title = 'Categorias'
+            inputType = 'checkbox'
+            options = {Categoria}
+            />
+            <FilterComponent
+            title = 'Gênero'
+            inputType = 'checkbox'
+            options = {Genero}
+            />
+            <FilterComponent
+            title = 'Estado'
+            inputType = 'radio'
+            options = {Estado}
+            />
 
 
         </div>

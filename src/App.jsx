@@ -9,12 +9,13 @@ import ProductListing from './Components/ProductListing/ProductListing.jsx';
 import FilterGroup from './Components/FilterGroup/FilterGroup.jsx';
 import HomePage from './pages/HomePage.jsx';
 import ProductViewPage from './pages/ProductViewPage.jsx';
+import ProductListingPage from './pages/ProductListingPage.jsx'
 
 function App() {
 
   return (
     <>
-      <ProductViewPage/>
+      <ProductListingPage/>
     </>
   )
 }
