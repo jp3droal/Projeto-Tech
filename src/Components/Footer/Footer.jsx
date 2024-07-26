@@ -76,9 +76,9 @@ export default function Footer() {
             <LogoFooter />
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores earum facilis error quis? Quo rem enim corporis.</p>
             <div className='redes-sociais'>
-              <a href="#"><img src={Facebook} alt="Facebook" /></a>
-              <a href="#"><img src={Instagram} alt="Instagram" /></a>
-              <a href="#"><img src={Twitter} alt="Twitter" /></a>
+              <a href="/facebook"><img src={Facebook} alt="Facebook" /></a>
+              <a href="/instagram"><img src={Instagram} alt="Instagram" /></a>
+              <a href="/twitter"><img src={Twitter} alt="Twitter" /></a>
             </div>
           </div>
 
