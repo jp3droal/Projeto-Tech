@@ -10,7 +10,7 @@ import Colecao3 from "../Components/ColeçõesEmDestaque3/Coleçao3";
 export default function HomePage() {
     return (
         <>
-            <Layout>
+            <Layout posicao={0}>
                 <Gallery />
                 <Colecao3/>
                 <ColeçaoEmDestaque />

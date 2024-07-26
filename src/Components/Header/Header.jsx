@@ -7,8 +7,8 @@ import './Header.css'
 
 import { Link } from "react-router-dom"
 
-export default function Header() {
-    const [activeIndex, setActiveIndex] = useState(0);
+export default function Header({posicao}) {
+    const [activeIndex, setActiveIndex] = useState(posicao);
 
     const handleSelect = (selectedIndex) => {
         setActiveIndex(selectedIndex);

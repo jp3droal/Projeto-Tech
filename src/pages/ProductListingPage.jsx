@@ -3,7 +3,7 @@ import Layout from "./Layout";
 
 export default function ProductListingPage() {
     return (
-        <Layout>
+        <Layout posicao={1}>
             <FilterGroup/>
         </Layout>
     )
