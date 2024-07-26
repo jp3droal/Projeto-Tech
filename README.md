@@ -13,7 +13,7 @@ Node<br/>
 -----------------------------------------------
 Link do Figma:<br/>
 https://www.figma.com/design/cfb4F7ZXMFQmvmTn3PKI4z/DRIP-STORE---DIGITAL-COLLEGE?node-id=22-30&t=beij3ABnnaGmFGLx-0<br/><br/>
-
+-----------------------------------------------
 Link para clonagem:<br/>
 https://github.com/jp3droal/Projeto-Tech.git
 -----------------------------------------------
