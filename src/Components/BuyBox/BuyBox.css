@@ -1,0 +1,167 @@
+.buyBoxMain {
+    width: 440px;
+    margin-left: 40.27px;
+
+    .buyBoxH3 {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 36px;
+        letter-spacing: 1px;
+        color: var(--darkGray);
+        margin-bottom: 10px;
+    }
+
+    .buyBoxP {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 0.5px;
+        color: var(--darkGray3);
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    .buyBoxEstrela {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+
+        img {
+            width: 92px;
+            margin-right: 13.92px;
+        }
+
+        .buyBoxAval {
+            display: flex;
+            align-items: center;
+            width: 184px;
+            justify-content: space-between;
+
+            div {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 63px;
+                height: 23px;
+
+                background-color: var(--warning);
+                text-align: center;
+                border-radius: 4px;
+
+                p {
+                    font-weight: 900;
+                    font-size: 14px;
+                    line-height: 24px;
+                    letter-spacing: 0.25px;
+                    color: var(--white);
+                }
+
+                img {
+                    width: 11.82px;
+                    height: 10px;
+                    margin: 0;
+                }
+            }
+
+            p {
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 22px;
+                letter-spacing: 0.25px;
+                color: var(--lightGray);
+                margin: 0;
+            }
+        }
+    }
+
+    .buyBoxPreco {
+        display: flex;
+        align-items: end;
+        margin-bottom: 20px;
+
+        .RS {
+            width: 26px;
+            margin: 0;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+            letter-spacing: 0.75px;
+            color: var(--darkGray2);
+            text-decoration: none;
+        }
+
+        div {
+            display: flex;
+            align-items: end;
+            margin-right: 10px;
+
+            h3 {
+                margin: 0;
+                font-weight: 700;
+                font-size: 32px;
+                line-height: 36px;
+                letter-spacing: 1px;
+                color: var(--darkGray2);
+            }
+
+            p {
+                margin: 0;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 28px;
+                letter-spacing: 0.75px;
+                color: var(--darkGray2);
+                text-decoration: none;
+            }
+        }
+
+        p {
+            margin: 0;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+            letter-spacing: 0.75px;
+            color: var(--lightGray2);
+            text-decoration: line-through;
+        }
+    }
+
+    .desc {
+        margin: 0;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: 0.75px;
+        color: var(--lightGray);
+        margin-bottom: 5px;
+    }
+
+    .lorem {
+        margin: 0;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: 0.25px;
+        color: var(--darkGray2);
+        margin-bottom: 30px;
+    }
+
+    .comprar {
+        width: 220px;
+        height: 48px;
+        border-radius: 4px;
+        background-color: #FFB31F;
+        
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.75px;
+        color: var(--white);
+
+        transition: 0.5s;
+    }
+}
+
+.comprar:hover {
+    background-color: #cf8900;
+}

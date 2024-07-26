@@ -1,0 +1,42 @@
+.circuloMain {
+    width: 186px;
+    margin-bottom: 27px;
+
+    p {
+        margin-bottom: 10px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: 0.75px;
+        color: var(--lightGray);
+    }
+
+    .circulos4 {
+        display: flex;
+        justify-content: space-between;
+        width: 186px;
+
+        #radiusCirculos {
+            width: 39px;
+            height: 39px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            div {
+                width: 31px;
+                height: 31px;
+                
+                border-radius: 50%;
+
+                cursor: pointer;
+            }
+        }
+        
+    }
+}
+
+#radiusCirculos.active {
+    border: 2px solid var(--primary);
+}
