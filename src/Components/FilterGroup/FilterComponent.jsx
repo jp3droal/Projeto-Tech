@@ -11,6 +11,7 @@ return(
            <label key={index}  className="filter-label">
             <input type={inputType} value={option.value}  className="filter-input"/>
             {option.text}
+            <span className="custom-checkmark"></span>
            </label>
             
         ))}
