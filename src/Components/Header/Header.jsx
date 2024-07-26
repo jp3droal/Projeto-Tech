@@ -35,7 +35,7 @@ export default function Header({posicao}) {
                     <a href="" className={activeIndex === 2 ? 'active' : ''} onClick={() => handleSelect(2)}>
                         Categorias
                     </a>
-                    <a href="/irineu" className={activeIndex === 3 ? 'active' : ''} onClick={() => handleSelect(3)}>
+                    <a href="" className={activeIndex === 3 ? 'active' : ''} onClick={() => handleSelect(3)}>
                         Meus Pedidos
                     </a>
                 </nav>
