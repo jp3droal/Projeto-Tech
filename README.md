@@ -10,6 +10,7 @@ João Pedro<br/>
 TECNOLOGIAS UTILIZADAS:<br/>
 ReactJS<br/>
 Node<br/>
+Bootstrap<br/>
 -----------------------------------------------
 Link do Figma:<br/>
 https://www.figma.com/design/cfb4F7ZXMFQmvmTn3PKI4z/DRIP-STORE---DIGITAL-COLLEGE?node-id=22-30&t=beij3ABnnaGmFGLx-0<br/><br/>
