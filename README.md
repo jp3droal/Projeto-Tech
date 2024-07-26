@@ -17,7 +17,7 @@ https://www.figma.com/design/cfb4F7ZXMFQmvmTn3PKI4z/DRIP-STORE---DIGITAL-COLLEGE
 Link para clonagem:<br/>
 https://github.com/jp3droal/Projeto-Tech.git
 -----------------------------------------------
-
-
-
 Copyright© 
+
+
+
