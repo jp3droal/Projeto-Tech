@@ -63,12 +63,12 @@ export default function FilterGroup(){
             <hr/>
 
             <FilterComponent
-            title = 'Markas'
+            title = 'Marka'
             inputType = 'checkbox'
             options = {Marka}
             />
             <FilterComponent
-            title = 'Categorias'
+            title = 'Categoria'
             inputType = 'checkbox'
             options = {Categoria}
             />
