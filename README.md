@@ -8,3 +8,5 @@ Raissa Reis,
 João Pedro
 
 PROJETO FEITO UTILIZANDO REACT E NODE
+
+Copyright© 
