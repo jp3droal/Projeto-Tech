@@ -7,6 +7,8 @@ Paulo Henrique,
 Raissa Reis,
 João Pedro
 
-PROJETO FEITO UTILIZANDO REACT E NODE
+TECNOLOGIAS UTILIZADA:
+ReactJS
+Node
 
 Copyright© 
