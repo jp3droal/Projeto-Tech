@@ -9,12 +9,20 @@
   font-weight: bold;
   color: #474747;
   margin-bottom: 10px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter";
+  font-size: 14px;
+ 
 }
 
 .filter-options {
   display: flex;
   flex-direction: column;
+  font-size: 14px;
+  letter-spacing: 0.25px;
+  font-weight: 500;
+  line-height: 22px;
+ 
+  
 }
 
 .filter-label {
@@ -42,19 +50,21 @@
   background-color: #fff;
 }
 
-.filter-input:checked {
-  background-color: #d31976;
-  border-color: #d31976;
+input[type="checkbox"]:checked + label::before {
+  background-color: #C92071;
+  border-color: #C92071;
 }
 
-.filter-input:checked::after {
-  content: '';
-  position: absolute;
-  top: 3px;
-  left: 3px;
-  width: 10px;
-  height: 10px;
-  border: solid white;
-  border-width: 0 2px 2px 0;
-  transform: rotate(45deg);
+input[type="checkbox"]:checked {
+  accent-color: #C92071;
 }
+
+input[type="radio"]:checked + label::before {
+  background-color: #C92071;
+  border-color: #C92071;
+}
+
+input[type="radio"]:checked {
+  accent-color: #C92071;
+}
+

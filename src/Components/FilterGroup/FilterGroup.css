@@ -1,8 +1,13 @@
 .filter-group {
     background-color: white;
     width: 308px;
-    padding: 16px;
-    border: 1px solid #ccc;
+    height: auto;
+    padding: 30px;
+    border: 25px #FFFFFF;
+    margin-left: 100px;
+    margin-top: 140px;
+    margin-bottom: 2224px;
+    border-radius: 4px;
   }
   
   .filter-title {
@@ -15,8 +20,12 @@
   
   hr {
     border: none;
-    border-top: 1px solid #ddd;
+    border-top: 1px solid #474747;
+    margin: auto;
+    width: 248px;
     margin-bottom: 20px;
+
+    
   }
   
   label {

@@ -1,0 +1,28 @@
+.ViewPageLinks {
+    display: flex;
+    margin: 20px 0 40px 100px;
+
+    p {
+        margin: 0;
+    }
+
+    .LinksDestaque {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: 0.75px;
+        color: var(--darkGray2);
+    }
+
+    .LinksRestante {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: 0.75px;
+        color: var(--darkGray2);
+    }
+}
+
+.ViewPageSeparacao {
+    display: flex;
+}
