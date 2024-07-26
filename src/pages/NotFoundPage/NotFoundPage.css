@@ -1,0 +1,41 @@
+body {
+    background-color: #f9f8fe;
+}
+
+.NotFoundPrincipal {
+    position: absolute;
+    left: 25%;
+    top: 30%;
+    background-color: var(--white);
+    border-radius: 10px;
+    width: 50%;
+    display: grid;
+    text-align: center;
+    margin: auto;
+
+    h1 {
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 66px;
+        letter-spacing: 1px;
+        color: var(--darkGray);
+    }
+
+    a {
+        background-color: var(--primary);
+        transition: 0.5s;
+        button {
+            width: 100%;
+            background-color: var(--primary);
+            color: var(--white);
+            font-weight: bold;
+            font-size: 14px;
+            transition: 0.5s;
+        }
+    }
+
+}
+
+.NotFoundPrincipal a button:hover {
+    background-color: var(--tertiary);
+}

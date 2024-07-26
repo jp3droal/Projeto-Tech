@@ -14,13 +14,9 @@ export default function OfertaEspecial() {
                 <h4>Oferta Especial</h4>
                 <h1>Air Jordan edição de colecionador</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
-                <button>Ver Oferta</button>
+                <a href="#productMain"><button>Ver Oferta</button></a>
             </div>
-
-
-
         </section>
-
     )
 }
 

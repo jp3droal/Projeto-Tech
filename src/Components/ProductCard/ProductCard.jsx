@@ -16,17 +16,20 @@ export default function ProductCard({ quantidade }) {
     return (
         <>
             {products.map((product, index) => (
-                <div key={index} className="cardPrincipal">
-                    <div className="cardImagem">
-                        <img src={product.image} alt="Imagem do ProductCard" />
+                <a href='/ProductViewPage' className='productCardA'>
+                    <div key={index} className="cardPrincipal">
+                        <div className="cardImagem">
+                            <img src={product.image} alt="Imagem do ProductCard" />
+                        </div>
+                        <p className='tinny'>{product.subName}</p>
+                        <p className='large'>{product.name}</p>
+                        <div className='cardValor'>
+                            <p className="large2">{product.price}</p>
+                            <p className="largeBold">{product.priceDiscount}</p>
+                        </div>
                     </div>
-                    <p className='tinny'>{product.subName}</p>
-                    <p className='large'>{product.name}</p>
-                    <div className='cardValor'>
-                        <p className="large2">{product.price}</p>
-                        <p className="largeBold">{product.priceDiscount}</p>
-                    </div>
-                </div>
+                </a>
+
             ))}
         </>
     );

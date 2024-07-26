@@ -11,11 +11,11 @@ const Marka = [
     {
         text: 'Calenciaga',
     },
-    { 
-        text: 'K-Swiss' ,
+    {
+        text: 'K-Swiss',
     },
     {
-        text: 'Nike' ,
+        text: 'Nike',
     },
     {
         text: 'Adiddas',
@@ -24,63 +24,63 @@ const Marka = [
 ]
 
 const Categoria = [
-    
-        {
-            text: "Esporte e Lazer", 
-        },
-        {
-            text: "Casual",
-        },
-        {
-            text: "Utilitário",
-        },
-        {  
-            text: "Corrida", 
-        }
-   
+
+    {
+        text: "Esporte e Lazer",
+    },
+    {
+        text: "Casual",
+    },
+    {
+        text: "Utilitário",
+    },
+    {
+        text: "Corrida",
+    }
+
 ]
 
 const Genero = [
-    
-        {text: "Masculino",} ,
-        {text: "Feminino", },
-       { text: "Unisex"},
-    
+
+    { text: "Masculino", },
+    { text: "Feminino", },
+    { text: "Unisex" },
+
 ]
 
 const Estado = [
-    
-      {  text:"Novo", },
-       { text:"Usado"},
-    
+
+    { text: "Novo", },
+    { text: "Usado" },
+
 ]
 
 
-export default function FilterGroup(){
-    return(
+export default function FilterGroup() {
+    return (
         <div className="filter-group">
             <h1 className="filter-title">Filtrar por</h1>
-            <hr/>
+            <hr />
 
             <FilterComponent
-            title = 'Marka'
-            inputType = 'checkbox'
-            options = {Marka}
+                title='Marka'
+                inputType='checkbox'
+                options={Marka}
             />
             <FilterComponent
-            title = 'Categoria'
-            inputType = 'checkbox'
-            options = {Categoria}
+                title='Categoria'
+                inputType='checkbox'
+                options={Categoria}
             />
             <FilterComponent
-            title = 'Gênero'
-            inputType = 'checkbox'
-            options = {Genero}
+                title='Gênero'
+                inputType='checkbox'
+                options={Genero}
             />
             <FilterComponent
-            title = 'Estado'
-            inputType = 'radio'
-            options = {Estado}
+                title='Estado'
+                inputType='radio'
+                options={Estado}
             />
 
 

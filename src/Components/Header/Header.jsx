@@ -5,8 +5,6 @@ import Pesquisa from "../../assets/Search.png"
 import Carrinho from "../../assets/mini-cart.png"
 import './Header.css'
 
-import { Link } from "react-router-dom"
-
 export default function Header({posicao}) {
     const [activeIndex, setActiveIndex] = useState(posicao);
 
@@ -28,16 +26,16 @@ export default function Header({posicao}) {
                     </div>
                 </div>
                 <nav className="headerNav">
-                    <a href="" className={activeIndex === 0 ? 'active' : ''} onClick={() => handleSelect(0)}>
+                    <a href="/" className={activeIndex === 0 ? 'active' : ''} onClick={() => handleSelect(0)}>
                         Home
                     </a>
-                    <a href="" className={activeIndex === 1 ? 'active' : ''} onClick={() => handleSelect(1)}>
+                    <a href="/ProductListingPage" className={activeIndex === 1 ? 'active' : ''} onClick={() => handleSelect(1)}>
                         Produtos
                     </a>
                     <a href="" className={activeIndex === 2 ? 'active' : ''} onClick={() => handleSelect(2)}>
                         Categorias
                     </a>
-                    <a href="" className={activeIndex === 3 ? 'active' : ''} onClick={() => handleSelect(3)}>
+                    <a href="/irineu" className={activeIndex === 3 ? 'active' : ''} onClick={() => handleSelect(3)}>
                         Meus Pedidos
                     </a>
                 </nav>

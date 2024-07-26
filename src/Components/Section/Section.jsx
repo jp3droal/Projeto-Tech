@@ -1,6 +1,6 @@
 import './Section.css'
 
-export default function Section({ title, titleAlign = 'left', classe, link, children }) {
+export default function Section({ title, titleAlign = 'left', classe, children }) {
     return (
         <section>
             <div className={classe}>

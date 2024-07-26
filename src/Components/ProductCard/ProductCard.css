@@ -1,57 +1,63 @@
-.cardPrincipal {
-    width: 292px;
-    display: flex;
-    text-align: start;
-    flex-direction: column;
-    border-radius: 4px;
+.productCardA {
+    text-decoration: none;
 
-    .cardImagem {
-        display: grid;
-        justify-content: center;
-        padding: 20px;
-        background-color: var(--white);
-        margin-bottom: 18px;
-
-        img {
-            color: var(--white);
-            position: relative;
-            right: 24px;
-        }
-    }
-
-    .tinny {
-        font-weight: 700;
-        font-size: 12px;
-        letter-spacing: 0.75px;
-        color: var(--lightGray);
-        line-height: 24px;
-    }
-
-    .large {
-        font-weight: 400;
-        font-size: 24px;
-        letter-spacing: 0.75px;
-        color: var(--darkGray2);
-        line-height: 38px;
-    }
-
-    .cardValor {
+    .cardPrincipal {
+        width: 292px;
         display: flex;
+        text-align: start;
+        flex-direction: column;
+        border-radius: 4px;
 
-        .large2 {
-            margin: 0 8px 0 0;
+        .cardImagem {
+            display: grid;
+            justify-content: center;
+            padding: 20px;
+            background-color: var(--white);
+            margin-bottom: 18px;
+
+            img {
+                color: var(--white);
+                position: relative;
+                right: 24px;
+            }
+        }
+
+        .tinny {
+            font-weight: 700;
+            font-size: 12px;
+            letter-spacing: 0.75px;
+            color: var(--lightGray);
+            line-height: 24px;
+            text-decoration: none;
+        }
+
+        .large {
             font-weight: 400;
             font-size: 24px;
             letter-spacing: 0.75px;
-            color: var(--lightGray);
-            text-decoration: line-through 1px;
+            color: var(--darkGray2);
+            line-height: 38px;
+            text-decoration: none;
         }
 
-        .largeBold {
-            font-weight: 700;
-            font-size: 24px;
-            letter-spacing: 0.75px;
-            color: var(--darkGray);
+        .cardValor {
+            display: flex;
+
+            .large2 {
+                margin: 0 8px 0 0;
+                font-weight: 400;
+                font-size: 24px;
+                letter-spacing: 0.75px;
+                color: var(--lightGray);
+                text-decoration: line-through 1px;
+            }
+
+            .largeBold {
+                font-weight: 700;
+                font-size: 24px;
+                letter-spacing: 0.75px;
+                color: var(--darkGray);
+            }
         }
     }
 }

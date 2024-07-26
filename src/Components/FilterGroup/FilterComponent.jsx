@@ -9,7 +9,7 @@ return(
         <div className="filter-options">
         {options.map((option, index) => (
            <label key={index}  className="filter-label">
-            <input type={inputType} value={option.value}  className="filter-input"/>
+            <input type={inputType} value={option.value} name="Filters" className="filter-input"/>
             {option.text}
             <span className="custom-checkmark"></span>
            </label>

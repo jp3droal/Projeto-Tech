@@ -2,6 +2,10 @@
     margin: 0 100px 120px 100px;
 }
 
+.productListingPage {
+    margin: 0 100px 140px 28px;
+}
+
 #productMain {
     display: grid;
 

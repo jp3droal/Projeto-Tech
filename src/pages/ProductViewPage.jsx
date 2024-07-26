@@ -18,7 +18,7 @@ export default function ProductViewPage() {
                 <GalleryProduct />
                 <BuyBox/>
             </div>
-            <Section id="HomePage"><ProductListing title="Produtos em alta" children={<ProductCard quantidade={2} />} /></Section>
+            <Section><ProductListing title="Produtos em alta" children={<ProductCard quantidade={2} />} /></Section>
         </Layout>
     )
 }

@@ -14,7 +14,7 @@ export default function HomePage() {
                 <Gallery />
                 <Colecao3/>
                 <ColeçaoEmDestaque />
-                <Section id="HomePage"><ProductListing title="Produtos em alta" children={<ProductCard quantidade={6} />} /></Section>
+                <Section><ProductListing title="Produtos em alta" children={<ProductCard quantidade={6} />} /></Section>
                 <OfertaEspecial />
             </Layout>
         </>

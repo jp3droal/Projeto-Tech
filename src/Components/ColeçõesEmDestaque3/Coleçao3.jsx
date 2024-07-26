@@ -12,7 +12,7 @@ export default function Colecao3() {
                     <div className="h3Limit">
                         <h3>Novo Drop Supreme</h3>
                     </div>
-                    <a href="">
+                    <a href="#productMain">
                         <button>Comprar</button>
                     </a>
                 </div>
@@ -23,7 +23,7 @@ export default function Colecao3() {
                     <div className="h3Limit">
                         <h3>Coleção Adidas</h3>
                     </div>
-                    <a href="">
+                    <a href="#productMain">
                         <button>Comprar</button>
                     </a>
                 </div>
@@ -34,7 +34,7 @@ export default function Colecao3() {
                     <div className="h3Limit">
                         <h3>Coleção Adidas</h3>
                     </div>
-                    <a href="">
+                    <a href="#productMain">
                         <button>Comprar</button>
                     </a>
                 </div>
